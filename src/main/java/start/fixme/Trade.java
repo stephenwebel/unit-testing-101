@@ -5,13 +5,16 @@ package start.fixme;
  */
 public class Trade {
     private final double qty;
+    private final Side side;
+    private final String securityId;
+    private final String clientId;
 
     public double getQty() {
         return qty;
     }
 
-    public Side getSideMark() {
-        return SIDE_MARK;
+    public Side getSide() {
+        return side;
     }
 
     public String getSecurityId() {
@@ -22,14 +25,11 @@ public class Trade {
         return clientId;
     }
 
-    private final Side SIDE_MARK;
-    private final String securityId;
-    private final String clientId;
 
 
     public Trade(double qty, Side side, String securityId, String clientId) {
         this.qty = qty;
-        this.SIDE_MARK = side;
+        this.side = side;
         this.securityId = securityId;
         this.clientId = clientId;
     }
@@ -42,10 +42,9 @@ public class Trade {
         Trade trade = (Trade) o;
 
         if (Double.compare(trade.qty, qty) != 0) return false;
-        if (SIDE_MARK != trade.SIDE_MARK) return false;
+        if (side != trade.side) return false;
         if (securityId != null ? !securityId.equals(trade.securityId) : trade.securityId != null) return false;
         return clientId != null ? clientId.equals(trade.clientId) : trade.clientId == null;
-
     }
 
     @Override
@@ -54,7 +53,7 @@ public class Trade {
         long temp;
         temp = Double.doubleToLongBits(qty);
         result = (int) (temp ^ (temp >>> 32));
-        result = 31 * result + (SIDE_MARK != null ? SIDE_MARK.hashCode() : 0);
+        result = 31 * result + (side != null ? side.hashCode() : 0);
         result = 31 * result + (securityId != null ? securityId.hashCode() : 0);
         result = 31 * result + (clientId != null ? clientId.hashCode() : 0);
         return result;

@@ -22,6 +22,7 @@ public class SillyTests {
         String expectedString = "the world";
         String actualString = "The world";
 
+        //todo add to readme that this is not right needs comment
         Assert.assertEquals(expectedString,actualString);
     }
 

@@ -5,13 +5,13 @@ package start.fixme;
  */
 public class TradeMutator {
 
-    public Trade incrementTradeQty(Trade initialTrade, double incrementalQty){
+    public Trade incrementTradeQty(Trade initialTrade, double incrementalQty) {
         double qty = initialTrade.getQty();
-        Side side = initialTrade.getSideMark();
+        Side side = initialTrade.getSide();
         String securityId = initialTrade.getSecurityId();
         String clientId = initialTrade.getClientId();
 
-        return new Trade(qty+incrementalQty,side,securityId,clientId);
+        return new Trade(qty + incrementalQty, side, securityId, clientId);
     }
 
 }
