@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.galatea</groupId>
-    <artifactId>testing-boot-camp-1</artifactId>
+    <artifactId>unit-testing-101</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
