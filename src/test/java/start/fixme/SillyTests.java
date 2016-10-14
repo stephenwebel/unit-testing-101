@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- *
+ * Get all the tests to pass
  *
  * Created by stephenwebel1 on 9/28/16.
  */
