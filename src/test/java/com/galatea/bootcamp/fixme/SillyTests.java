@@ -1,4 +1,4 @@
-package start.fixme;
+package com.galatea.bootcamp.fixme;
 
 
 import org.junit.Assert;
