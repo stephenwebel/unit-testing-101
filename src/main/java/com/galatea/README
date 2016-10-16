@@ -1,0 +1,56 @@
+Dear Galatean,
+
+The author of this Boot Camp is Stephen Webel, Gala-class Spring 2014. I hope you are well and find this Boot Camp informative.
+
+Goals:
+    Understand why testing is important.
+    Gain a cursory understanding of the tools commonly leveraged to test Java code.
+    Be able to recognize coding practices leading to untestable code.
+    Avoid such practices.
+    Think critically about the material presented and the effectiveness of the presentation. It is highly encourage
+        but not required to add modifications, suggestions, comments, anything you want, and then push your changes and
+        submit a pull request. Please add Stephen Webel, James Barber, or your mentor to the list of reviewers.
+
+Motivation: Why is testing important?
+
+    Well, let me tell you a story:
+        Fresh faced associate Stephen is completing the code for his first feature
+
+            Stephen: I don't need to write tests for this code; it was pretty simple, and I ran it and it worked. Plus I'm an
+                Awesome Developer and write the best code.
+
+        ...
+        3 months later
+        ...
+
+        Stephen, hands in his face, reading logs attempting to understand why his first feature took down prod
+
+            Stephen: I'm so sorry the bug I introduced 3 months ago took down prod... I remember running it a bunch and it always worked.
+
+            Scary Galatea Team Lead: Stephen, I'm not angry. I'm just disappointed. Please go through the logs, profile the bug,
+                write the necessary tests for this edge case, modify the code until the new edge case tests pass.
+
+            Stephen: Me yeah, I actually already figured out what is wrong and if I had written some simple tests 3 months ago this
+                never would have happened.
+
+
+    But seriously. Testing is extremely important to the success or failure of all projects. Rigorous unit testing
+    fosters/provides three benefits:
+        1. Audit-able conservation of business requirements.
+        2. Design favoring OOP best practices: encapsulation, law of demeter, liskov substitution principle, composition.
+        3. Additional documentation for your code, ideal for those who don't know where the '/' key is.
+    Discuss these benefits with a Galatean near you, ask them questions until you both fully understand. However, if
+    dissent, disagreement, or confusion remain persistent, please add a comment and commit for your pull request.
+
+Testing Boot Camp Structure:
+    The following packages are order dependent and should be done to completion before moving to the next package.
+    Each package contains a README, this should be your first step when starting a new package.
+    Outline
+        -We will learn about basic testing tools
+        -We will then suffer through the exercise of writing tests for poorly designed code
+        -We will examine the short comings of the code and learn an industry standard for Testability design
+        -We will re-design the initial code to leveraging industry standards
+        -We will highlight the pros/cons of our new code
+
+
+

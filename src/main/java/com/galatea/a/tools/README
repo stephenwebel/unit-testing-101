@@ -1,0 +1,5 @@
+A standard Java program will contain all tests under src/main/test. If you navigate to this directory now you will see
+a the package structure is identical to src/main/java. This is intentional, it add clarity to the purpose of a test and
+allows tests package-protected access to members of the structure under test.
+
+Please navigate to src/main/test/a/tools/SillyTests.java follow the commented instructions.

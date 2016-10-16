@@ -1,8 +1,11 @@
-package start.fixme;
-
+package com.galatea.a.tools;
 
 import org.junit.Assert;
 import org.junit.Test;
+import com.galatea.models.Position;
+import com.galatea.models.Side;
+import com.galatea.models.Trade;
+import com.galatea.models.TradeMutator;
 
 /**
  * Get all the tests to pass
