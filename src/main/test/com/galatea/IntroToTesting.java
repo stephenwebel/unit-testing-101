@@ -8,6 +8,8 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
+ * Please ensure all tests are passing
+ *
  * Created by stephenwebel1 on 10/15/16.
  */
 public class IntroToTesting {
