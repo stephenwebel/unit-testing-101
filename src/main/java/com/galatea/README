@@ -14,7 +14,7 @@ Goals:
 Motivation: Why is testing important?
 
     Well, let me tell you a story:
-        Fresh faced associate Stephen is completing the code for his first feature
+        Fresh faced Associate Stephen is completing the code for his first feature
 
             Stephen: I don't need to write tests for this code; it was pretty simple, and I ran it and it worked. Plus I'm an
                 Awesome Developer and write the best code.
@@ -23,7 +23,7 @@ Motivation: Why is testing important?
         3 months later
         ...
 
-        Stephen, hands in his face, reading logs attempting to understand why his first feature took down prod
+        Stephen, face in his hands, reading logs attempting to understand why his first feature took down prod
 
             Stephen: I'm so sorry the bug I introduced 3 months ago took down prod... I remember running it a bunch and it always worked.
 
@@ -39,8 +39,8 @@ Motivation: Why is testing important?
         1. Audit-able conservation of business requirements.
         2. Design favoring OOP best practices: encapsulation, law of demeter, liskov substitution principle, composition.
         3. Additional documentation for your code, ideal for those who don't know where the '/' key is.
-    Discuss these benefits with a Galatean near you, ask them questions until you both fully understand. However, if
-    dissent, disagreement, or confusion remain persistent, please add a comment and commit for your pull request.
+    Discuss these benefits with a Galatean near you, ask them questions until you both fully understand. If dissent,
+    disagreement, or confusion remain persistent, please add a comment and commit for your pull request.
 
 Testing Boot Camp Structure:
     The following packages are order dependent and should be done to completion before moving to the next package.
@@ -51,6 +51,3 @@ Testing Boot Camp Structure:
         -We will examine the short comings of the code and learn an industry standard for Testability design
         -We will re-design the initial code to leveraging industry standards
         -We will highlight the pros/cons of our new code
-
-
-
